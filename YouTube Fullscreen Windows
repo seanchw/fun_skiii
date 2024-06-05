@@ -1,0 +1,11 @@
+REM Play YouTube Video Full Screen for Windows
+REM Author: Sean Chow
+
+DELAY 1000
+WINDOWS r
+ENTER
+DELAY 100
+STRING <Enter your YouTube video link here>
+ENTER
+DELAY 2000
+STRING f
