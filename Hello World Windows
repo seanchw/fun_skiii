@@ -1,0 +1,15 @@
+REM Hello World for Windows
+REM Author: Sean Chow
+
+REM Need to allow time for the computer to recognize RD
+DELAY 1000
+
+REM Need to open Notepad. What is the quickest way?
+WINDOWS r
+DELAY 200
+STRING notepad
+ENTER
+
+REM Type Hello World
+DELAY 500
+STRING Hello World!
