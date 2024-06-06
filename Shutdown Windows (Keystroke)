@@ -1,0 +1,12 @@
+REM Shutting down computer using keyborad on Windows
+REM Author: Sean Chow
+
+WAIT_FOR_BUTTON_PRESS
+DELAY 1000
+CTRL ALT DELETE
+DELAY 500
+UP
+ENTER
+DELAY 500
+DOWN
+ENTER
