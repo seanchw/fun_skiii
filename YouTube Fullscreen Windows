@@ -1,0 +1,13 @@
+REM Play YouTube Video Fullscreen for Windows
+REM Author: Sean Chow
+DELAY 1000
+WINDOWS r
+ENTER
+DELAY 100
+STRING <add YouTube link here>
+ENTER
+DELAY 3000
+REM Need to refresh the page due to my ad blocker
+F5
+DELAY 1500
+STRING f
